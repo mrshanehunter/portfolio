@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2f3068;
+    padding-top: 50px;
+}
+
+.navbar {
+    background-color: #151629;
+    box-shadow: 4px 4px 6px rgba(17,27,48, .05);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-item a {
+    color: white;
+}
+
+
+#introduction {
+    min-height: 100vh;
+}
+
+#cardGallery {
+    min-height: 100vh;
+    padding-top: 40px;
+    background: url(./assetsLogo/AdobeStock_210096418_Preview\ copy.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+   
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    background-color: #151629;
+    flex: none;
+}
+
+.logo {    
+    max-width: 20vw;   
+}
+
+footer {
+    height: 5vh;
+    background-color: #151629;
+}
+
+footer p {
+    font-size: 8px;
+    color: #5055b4;
+    
+}
+
+.modal-header {
+    background-color: #151629;
+}
+
+.modal-header h5 {
+    color: #5055b4;
+}
+
+.modal-body {
+    background-color: #2f3068;
+}
+
+.modal-footer {
+    background-color: #151629;
+}
+
+.close {
+    color: #ffffff;
+}
+ 
+
+/* img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+img:hover {
+    -webkit-filter: none;
+    filter: none;
+}
+
+#portfolioLogo2 {
+    filter: grayscale(100%);
+}
+
+#portfolioLogo2:hover {
+    filter: none;
+} */
+
+ 
+
+ 
