@@ -21,6 +21,9 @@ body {
     color: white;
 }
 
+.view {
+    min-height: 100vh;
+}
 
 #introduction {
     min-height: 100vh;
