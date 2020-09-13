@@ -67,6 +67,17 @@ footer p {
 
 .modal-body {
     background-color: #2f3068;
+    color: #ffffff;
+    font-size: 10px;
+}
+
+.workDesc {
+    padding-top: 10px;
+}
+
+.modalImage {
+    max-width: 75%;
+    
 }
 
 .modal-footer {
