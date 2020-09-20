@@ -15,6 +15,7 @@ body {
 
 .navbar-brand {
     color: white;
+    text-align: center;
 }
 
 .nav-item a {
@@ -54,22 +55,29 @@ footer {
     background-color: #151629;
 }
 
-footer p {
-    font-size: 8px;
-    color: #5055b4;
-    
+.footerLine p {
+    margin: 0px;
+    padding: 0px;
 }
 
+.footerLine p {
+    font-size: 9px;
+    color: #5055b4;    
+}
+
+
+
+
 .modal-header {
-    background-color: #151629;
+    background-color: #2f3068;
 }
 
 .modal-header h5 {
-    color: #5055b4;
+    color: #ffffff;
 }
 
 .modal-body {
-    background-color: #2f3068;
+    background-color: #151629;
     color: #ffffff;
     font-size: 10px;
 }
@@ -82,11 +90,13 @@ footer p {
     max-width: 66%;
     height: auto;
     align-self: center;
+    border: 0.5px solid #151629;
+    box-shadow: 3px 3px 3px 3px rgba(47, 48, 104, 0.35);
     
 }
 
 .modal-footer {
-    background-color: #151629;
+    background-color: #2f3068;
 }
 
 .close {
