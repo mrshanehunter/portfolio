@@ -22,7 +22,7 @@ const projectCard = `
            <div class="card-logo">
             <a>
                 <button type="button" class="btn btn-outline-light p-0" data-toggle="modal" data-target="#${name}">
-                <img class="logo img-fluid" id="#${name}" src="${logoImage}" />
+                <img class="logo img-fluid" id="${name}" src="${logoImage}" />
                 </button>   
             </a>
            </div>
