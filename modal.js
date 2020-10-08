@@ -1,6 +1,4 @@
-// create an array of objects in another file - a record for each project to populate the-modal
 
-// eventlistener to pick up id of button being clicked triggers the build and inputs data from the array
 const brandData = [
   {
     id: 0,
@@ -106,6 +104,7 @@ const brandData = [
 
 const modalDisplayDiv = document.querySelector('#projectCards');
 
+
 //attach a click event to the buttons on the page:
 function attachClickEvent() {
 
@@ -138,6 +137,7 @@ function identifyBrand(e) {
   console.log('Element Id is '+elemId);
 
   //get the brand data attached to that id
+
 
 
   const theBrand = brandData.find( function(brandData){
@@ -191,19 +191,20 @@ function identifyBrand(e) {
                             </div>    
                         </div>
                         <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary btn-sm close" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                     </div>
                 </div> `; 
       
       modalDisplayDiv.innerHTML = html;
-      modalDisplayDiv.appendChild(div);
-      
+    
+   
+            
 
     };
 
-   
+    
   
 
 
