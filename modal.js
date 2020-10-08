@@ -21,7 +21,7 @@ const brandData = [
     brand: "Thorburn Property",
     desc1: `Thorburn Property is a boutique commercial real estate agency located in Melbourne.`,
     desc2: `They specialise in the leasing of office property in the city fringe, with a particular focus on the St Kilda Rd market & surrounding suburbs.`,
-    creative: ".assets/assetsCreative/ThorburnCreative.jpg",
+    creative: "./assets/assetsCreative/ThorburnCreative.jpg",
     brief: "still to come",
     solution1: "still to come",
     solution2: "still to come",
@@ -45,7 +45,7 @@ const brandData = [
     brand: "Infrusion",
     desc1: ``,
     desc2: ``,
-    creative: ".assets/assetsCreative/InfrusionCreative.jpg",
+    creative: "./assets/assetsCreative/InfrusionCreative.jpg",
     brief: "still to come",
     solution1: "still to come",
     solution2: "still to come",
@@ -69,7 +69,7 @@ const brandData = [
     brand: "tshirtsonline.com.au",
     desc1: ``,
     desc2: ``,
-    creative: ".assets/assetsCreative/tshirtsonlineCreative.png",
+    creative: "./assets/assetsCreative/tshirtsonlineCreative.png",
     brief: "still to come",
     solution1: "still to come",
     solution2: "still to come",
@@ -93,7 +93,7 @@ const brandData = [
     brand: "Lady Boss",
     desc1: ``,
     desc2: ``,
-    creative: ".assets/assetsCreative/LadyBossCreative.png",
+    creative: "./assets/assetsCreative/LadyBossCreative.png",
     brief: "still to come",
     solution1: "still to come",
     solution2: "still to come",
@@ -198,7 +198,7 @@ function identifyBrand(e) {
                 </div> `; 
       
       modalDisplayDiv.innerHTML = html;
-      modalDisplayDiv.appendChild(html);
+      modalDisplayDiv.appendChild(div);
       
 
     };
