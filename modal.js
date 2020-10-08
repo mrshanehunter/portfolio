@@ -105,6 +105,7 @@ const brandData = [
 const modalDisplayDiv = document.querySelector('#projectCards');
 
 
+
 //attach a click event to the buttons on the page:
 function attachClickEvent() {
 
