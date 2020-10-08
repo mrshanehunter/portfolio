@@ -171,7 +171,7 @@ function identifyBrand(e) {
                     <div class="modal-content">
                         <div class="modal-header">
                         <h5 class="modal-title" id="${name}Title">${brand}</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <button type="button" class="close" id="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                         </div>
@@ -191,7 +191,7 @@ function identifyBrand(e) {
                             </div>    
                         </div>
                         <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary btn-sm close" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary btn-sm" id="close" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                     </div>
@@ -199,15 +199,22 @@ function identifyBrand(e) {
       
       modalDisplayDiv.innerHTML = html;
     
+
+      const reset = document.getElementById('close');
+
+      reset.addEventListener("click", function () {
+      html.remove;
+      render();
+      })
+
+      };
+
+ 
    
-            
-
-    };
-
     
-  
-
-
+    
+    
+ 
 //attach the click event when the window loads
 
 window.onload = attachClickEvent;
