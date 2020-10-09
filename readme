@@ -1,0 +1,11 @@
+The Portfolio pages for TGFM.
+
+projectDataFile.js contains an array of objects to store all the data for each brand project to be used across the site.
+
+Two asset files are required for each brand - a logo file & an example of the creative work done - filed in the appropriate folders under "assets".
+
+project.js creates the "Projects" page and the branded buttons that are rendered there, based on the number of objects stored in brandData.
+
+modal.js creates a modal for the user-selected brand and displays relevant information on the company, type of work completed & an image by way of example.
+
+There are three folders in the "assets" folder - one for logos (assetsLogo), one for brand creative (assetsCreative) and the assetsPage folder stores any elements used in the styling of the site (background images etc.)

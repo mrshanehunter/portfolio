@@ -1,16 +1,3 @@
-// Data for each card/button is stored in an array.  The name is used as the "id" for eventlistener & calling the modal
-
-const projectData = [
-    {id:0, name:'Belvoir', logoImage: './assets/assetsLogo/BFFLogo.png',},
-    {id:1, name:'Thorburn', logoImage: './assets/assetsLogo/ThorburnLogo.png',},
-    {id:2, name:'ATT', logoImage: './assets/assetsLogo/ATTLogo.png',},
-    {id:3, name:'Infrusion', logoImage: './assets/assetsLogo/LogoInfrusion.png',},
-    {id:4, name:'RBY', logoImage: './assets/assetsLogo/RBYLogo.png',},
-    {id:5, name:'tshirts', logoImage: './assets/assetsLogo/tshirtsonlineLogo.png',},
-    {id:6, name:'SAS', logoImage: './assets/assetsLogo/LogoSAS.png',},
-    {id:7, name:'LadyBoss', logoImage: './assets/assetsLogo/LogoLadyBoss.png',}
-];
-
 // The HTML for the card/buttons with data passed into it from the render function
 
 const createProjectCards = (id, name, logoImage) => {
@@ -40,8 +27,8 @@ function render () {
 
 const cardsHtmlList = [];
 
-for (let i = 0; i < projectData.length; i++) {
-    const currentProject = projectData[i];
+for (let i = 0; i < brandData.length; i++) {
+    const currentProject = brandData[i];
     const cardHtml = createProjectCards(
         currentProject.id, 
         currentProject.name,
