@@ -1,103 +1,103 @@
 
-const brandData = [
-  {
-    id: 0,
-    name: "Belvoir",
-    brand: "Belvoir Fruit Farms",
-    desc1: `Belvoir Fruit Farms nestles deep in the English countryside. For over 35 years, in the idyllic Vale of Belvoir, they've been pressing fresh fruit & infusing flowers to mix with spring water to make their fruit cordials & presses.`,
-    desc2: `Renowned for their elderflower drinks, still made to the original family recipe, the expanded range offers a wide variety of natural & authentic flavours. Locally, Belvoir Fruit Farms is ranged by both Coles & Woolworths.`,
-    creative: "./assets/assetsCreative/BFFCreative.png",
-    brief: "the job brief goes here - should be 2 - 3 lines max",
-    solution1:
-      "the solution should be three para - strategy / tactic / outcome",
-    solution2: "",
-    solution3: "",
-  },
-  {
-    id: 1,
-    name: "Thorburn",
-    brand: "Thorburn Property",
-    desc1: `Thorburn Property is a boutique commercial real estate agency located in Melbourne.`,
-    desc2: `They specialise in the leasing of office property in the city fringe, with a particular focus on the St Kilda Rd market & surrounding suburbs.`,
-    creative: "./assets/assetsCreative/ThorburnCreative.jpg",
-    brief: "still to come",
-    solution1: "still to come",
-    solution2: "still to come",
-    solution3: "sitll to come",
-  },
-  {
-    id: 2,
-    name: "ATT",
-    brand: "Ask The Tarot",
-    desc1: ``,
-    desc2: ``,
-    creative: "",
-    brief: "",
-    solution1: "",
-    solution2: "",
-    solution3: "",
-  },
-  {
-    id: 3,
-    name: "Infrusion",
-    brand: "Infrusion",
-    desc1: ``,
-    desc2: ``,
-    creative: "./assets/assetsCreative/InfrusionCreative.jpg",
-    brief: "still to come",
-    solution1: "still to come",
-    solution2: "still to come",
-    solution3: "sitll to come",
-  },
-  {
-    id: 4,
-    name: "RBY",
-    brand: "Reboot You",
-    desc1: ``,
-    desc2: ``,
-    creative: "./assets/assetsCreative/RBYCreative.png",
-    brief: "",
-    solution1: "",
-    solution2: "",
-    solution3: "",
-  },
-  {
-    id: 5,
-    name: "tshirts",
-    brand: "tshirtsonline.com.au",
-    desc1: ``,
-    desc2: ``,
-    creative: "./assets/assetsCreative/tshirtsonlineCreative.png",
-    brief: "still to come",
-    solution1: "still to come",
-    solution2: "still to come",
-    solution3: "sitll to come",
-  },
-  {
-    id: 6,
-    name: "SAS",
-    brand: "Shepherd Advisory Service",
-    desc1: ``,
-    desc2: ``,
-    creative: "./assets/assetsCreative/ShepherdCreative.png",
-    brief: "",
-    solution1: "",
-    solution2: "",
-    solution3: "",
-  },
-  {
-    id: 7,
-    name: "LadyBoss",
-    brand: "Lady Boss",
-    desc1: ``,
-    desc2: ``,
-    creative: "./assets/assetsCreative/LadyBossCreative.png",
-    brief: "still to come",
-    solution1: "still to come",
-    solution2: "still to come",
-    solution3: "sitll to come",
-  },
-];
+// const brandData = [
+//   {
+//     id: 0,
+//     name: "Belvoir",
+//     brand: "Belvoir Fruit Farms",
+//     desc1: `Belvoir Fruit Farms nestles deep in the English countryside. For over 35 years, in the idyllic Vale of Belvoir, they've been pressing fresh fruit & infusing flowers to mix with spring water to make their fruit cordials & presses.`,
+//     desc2: `Renowned for their elderflower drinks, still made to the original family recipe, the expanded range offers a wide variety of natural & authentic flavours. Locally, Belvoir Fruit Farms is ranged by both Coles & Woolworths.`,
+//     creative: "./assets/assetsCreative/BFFCreative.png",
+//     brief: "the job brief goes here - should be 2 - 3 lines max",
+//     solution1:
+//       "the solution should be three para - strategy / tactic / outcome",
+//     solution2: "",
+//     solution3: "",
+//   },
+//   {
+//     id: 1,
+//     name: "Thorburn",
+//     brand: "Thorburn Property",
+//     desc1: `Thorburn Property is a boutique commercial real estate agency located in Melbourne.`,
+//     desc2: `They specialise in the leasing of office property in the city fringe, with a particular focus on the St Kilda Rd market & surrounding suburbs.`,
+//     creative: "./assets/assetsCreative/ThorburnCreative.jpg",
+//     brief: "still to come",
+//     solution1: "still to come",
+//     solution2: "still to come",
+//     solution3: "sitll to come",
+//   },
+//   {
+//     id: 2,
+//     name: "ATT",
+//     brand: "Ask The Tarot",
+//     desc1: ``,
+//     desc2: ``,
+//     creative: "",
+//     brief: "",
+//     solution1: "",
+//     solution2: "",
+//     solution3: "",
+//   },
+//   {
+//     id: 3,
+//     name: "Infrusion",
+//     brand: "Infrusion",
+//     desc1: ``,
+//     desc2: ``,
+//     creative: "./assets/assetsCreative/InfrusionCreative.jpg",
+//     brief: "still to come",
+//     solution1: "still to come",
+//     solution2: "still to come",
+//     solution3: "sitll to come",
+//   },
+//   {
+//     id: 4,
+//     name: "RBY",
+//     brand: "Reboot You",
+//     desc1: ``,
+//     desc2: ``,
+//     creative: "./assets/assetsCreative/RBYCreative.png",
+//     brief: "",
+//     solution1: "",
+//     solution2: "",
+//     solution3: "",
+//   },
+//   {
+//     id: 5,
+//     name: "tshirts",
+//     brand: "tshirtsonline.com.au",
+//     desc1: ``,
+//     desc2: ``,
+//     creative: "./assets/assetsCreative/tshirtsonlineCreative.png",
+//     brief: "still to come",
+//     solution1: "still to come",
+//     solution2: "still to come",
+//     solution3: "sitll to come",
+//   },
+//   {
+//     id: 6,
+//     name: "SAS",
+//     brand: "Shepherd Advisory Service",
+//     desc1: ``,
+//     desc2: ``,
+//     creative: "./assets/assetsCreative/ShepherdCreative.png",
+//     brief: "",
+//     solution1: "",
+//     solution2: "",
+//     solution3: "",
+//   },
+//   {
+//     id: 7,
+//     name: "LadyBoss",
+//     brand: "Lady Boss",
+//     desc1: ``,
+//     desc2: ``,
+//     creative: "./assets/assetsCreative/LadyBossCreative.png",
+//     brief: "still to come",
+//     solution1: "still to come",
+//     solution2: "still to come",
+//     solution3: "sitll to come",
+//   },
+// ];
 
 
 //get the div to attach the modal display to:
@@ -139,10 +139,11 @@ function identifyBrand(e) {
 
   //get the brand data attached to that id
 
-
+ 
 
   const theBrand = brandData.find( function(brandData){
     return brandData.name === elemId;
+  
   });
 
 
@@ -192,7 +193,7 @@ function identifyBrand(e) {
                             </div>    
                         </div>
                         <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary btn-sm" id="close" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary btn-sm close" id="close" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                     </div>
@@ -201,11 +202,15 @@ function identifyBrand(e) {
       modalDisplayDiv.innerHTML = html;
     
 
-      const reset = document.getElementById('close');
+      const reset = document.querySelector(".modal");
 
       reset.addEventListener("click", function () {
-      html.remove;
-      render();
+     $('.modal').on('hidden.bs.modal', function () {
+      //  html.remove;
+       location.reload();
+      //  render();
+     })
+      
       })
 
       };
