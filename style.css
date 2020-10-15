@@ -33,6 +33,8 @@ body {
 #cardGallery {
     min-height: 100vh;
     padding-top: 55px;
+    display: flex;
+    justify-content: center;
     /* background: url(./assetsLogo/AdobeStock_210096418_Preview\ copy.jpg) no-repeat center center fixed;
     background-size: cover; */
 }
@@ -62,10 +64,23 @@ footer {
 
 .footerLine p {
     font-size: 9px;
+    font-family: sans-serif;
     color: #5055b4;    
 }
 
+.modalBtn {
+    border-radius: 5px 15px;
+    border: medium solid #151629;
+    background-color: #2f3068;
+    color: #ffffff;
+    width: 30%;
+    padding: 1%;
+}
 
+.modalBtn:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    color: #151629;
+}
 
 
 .modal-header {
