@@ -1,5 +1,8 @@
 The Portfolio pages for TGFM.
 
+** A porfolio of work with a visual element.  Comprising a landing page, and introduction or about page & a portfolio page.  There is a link 
+back to the "the main site" - the portfolio was designed to be stored in a sub-domain.
+
 projectDataFile.js contains an array of objects to store all the data for each brand project to be used across the site.
 
 Two asset files are required for each brand - a logo file & an example of the creative work done - filed in the appropriate folders under "assets".
