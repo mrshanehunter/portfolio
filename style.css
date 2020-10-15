@@ -10,7 +10,7 @@ body {
 
 .navbar {
     background-color: #151629;
-    box-shadow: 4px 4px 6px rgba(17,27,48, .05);
+    box-shadow: 4px 4px 10px rgba(17,27,48, .05);
 }
 
 .navbar-brand {
@@ -40,7 +40,20 @@ body {
 
 #introduction {
     min-height: 100vh;
+    margin-top: 55px;
 }
+
+#intro {
+    margin-top: 15%;
+}
+
+h3 {
+    font-family: timberline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+}
+
 
 #cardGallery {
     min-height: 100vh;
@@ -62,6 +75,10 @@ body {
 
 .logo {    
     max-width: 20vw;   
+}
+
+.btn:hover {
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
 }
 
 footer {
