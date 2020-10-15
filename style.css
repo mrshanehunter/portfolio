@@ -22,9 +22,21 @@ body {
     color: white;
 }
 
-.view {
+.viewa {
     min-height: 100vh;
+    /* opacity: 0; */
 }
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+/* .view:onload {
+    transition: 0.75s ease ;
+    opacity: 1;
+} */
 
 #introduction {
     min-height: 100vh;

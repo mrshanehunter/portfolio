@@ -44,3 +44,12 @@ projectCards.innerHTML = cardsHtml;
 }
 
 render();
+
+
+const onload = () => {
+    const image = document.getElementById('view');
+    image.style.opacity = 0;
+    image.style.animation = 'fadeIn 3.5s ease-in-out 1 forwards';
+}
+
+onload();
