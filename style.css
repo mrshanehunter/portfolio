@@ -3,23 +3,43 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
-    background-color: #2f3068;
-    padding-top: 50px;
+    background-color: #080424;
+    padding-top: 5rem;
+    font-family: montserrat, sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 .navbar {
-    background-color: #151629;
-    box-shadow: 4px 4px 10px rgba(17,27,48, .05);
+    background-color: #d9d9d9;
+    box-shadow: 0 0 2.5rem rgba(138, 189, 222, .75);
+}
+
+.navbar-toggler-icon{
+    color: #0f4c81;
 }
 
 .navbar-brand {
-    color: white;
-    text-align: center;
+    color: #0f4c81;
+    /* text-align: center; */
+    font-size: 1.8rem;
 }
 
-.nav-item a {
-    color: white;
+.nav-item > a {
+    color: #0f4c81;
+    font-size: 1.6rem;
+}
+
+#view {
+    background-image: url('./assets/assetsPage/TGFMBuildYourBrand.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .viewa {
@@ -40,24 +60,31 @@ body {
 
 #introduction {
     min-height: 100vh;
-    margin-top: 55px;
+    margin-top: 5.5rem;
 }
 
 #intro {
-    margin-top: 15%;
+    margin-top: 2rem;
 }
 
-h3 {
+#intro h3 {
     font-family: timberline, sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #ffffff;
+    color: #d9d9d9;
+    font-size: 2.4rem;
+}
+
+#intro p {
+    color: #d9d9d9;
+    font-size: 1.2rem;
+    margin-top: 2rem;
 }
 
 
 #cardGallery {
     min-height: 100vh;
-    padding-top: 55px;
+    padding-top: 4.5rem;
     display: flex;
     justify-content: center;
     /* background: url(./assetsLogo/AdobeStock_210096418_Preview\ copy.jpg) no-repeat center center fixed;
@@ -68,8 +95,8 @@ h3 {
    
     padding: 0px;
     margin: 0px;
-    border-radius: 10px;
-    background-color: #151629;
+    border-radius: 1rem;
+    background-color: #080424;
     flex: none;
 }
 
@@ -78,12 +105,14 @@ h3 {
 }
 
 .btn:hover {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 3rem rgba(138, 189, 222, 0.75);
 }
 
 footer {
-    height: 5vh;
-    background-color: #151629;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    background-color: #d9d9d9;
 }
 
 .footerLine p {
@@ -92,59 +121,66 @@ footer {
 }
 
 .footerLine p {
-    font-size: 9px;
-    font-family: sans-serif;
-    color: #5055b4;    
+    font-size: 1rem; 
+    color: #0f4c81;    
 }
 
 .modalBtn {
-    border-radius: 5px 15px;
-    border: medium solid #151629;
-    background-color: #2f3068;
-    color: #ffffff;
+    border-radius: 1rem 3rem;
+    border: thin solid #d9d9d9;
+    background-color: #080424;
+    color: #d9d9d9;
     width: 30%;
     padding: 1%;
 }
 
 .modalBtn:hover {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    color: #151629;
+    box-shadow: 0 0 2.5rem rgba(138, 189, 222, 0.75);
+    color: #0f4c81;
 }
 
 
 .modal-header {
-    background-color: #2f3068;
+    background-color: #080424;
+    border: thin solid #0f4c81;
 }
 
 .modal-header h5 {
-    color: #ffffff;
+    font-family: timberline, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.4rem;
+    color: #d9d9d9;
+    
 }
 
 .modal-body {
-    background-color: #151629;
-    color: #ffffff;
-    font-size: 10px;
+    background-color: #d9d9d9;
+    color: #0f4c81;
+    font-size: 1.4rem;
+    border: thin solid #0f4c81
 }
 
 .workDesc {
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
 .modalImage {
     max-width: 66%;
     height: auto;
     align-self: center;
-    border: 0.5px solid #151629;
-    box-shadow: 3px 3px 3px 3px rgba(47, 48, 104, 0.35);
+    border: 0.05rem solid #080424;
+    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(15, 76, 129, 0.25);
     
 }
 
 .modal-footer {
-    background-color: #2f3068;
+    background-color: #080424;
+    border: thin solid #0f4c81;
 }
 
 .close {
-    color: #ffffff;
+    color: #d9d9d9;
 }
  
 
