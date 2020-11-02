@@ -5,7 +5,7 @@ const createProjectCards = (id, name, logoImage) => {
 const projectCard = `
     
     <div class="card m-3 data-task-id=${id}">
-       <div class="card-body d-inline-flex justify-space-evenly p-1">
+       <div class="card-body d-inline-flex justify-content-center p-1">
            <div class="card-logo">
             <a>
                 <button type="button" class="btn btn-outline-light p-0" data-toggle="modal" data-target="#${name}">
