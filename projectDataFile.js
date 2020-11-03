@@ -29,7 +29,7 @@ const brandData = [
         brand: 'Ask The Tarot',
         desc1: ``,   
         desc2: ``,
-        creative: '',
+        creative: './assets/assetsCreative/ATTCreative.png',
         brief: '',
         solution1: '',   
         solution2: '',
