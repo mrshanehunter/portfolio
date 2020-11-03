@@ -97,6 +97,7 @@ header {
 
 #introContent {
     column-count: 2;
+    column-gap: 1.5rem;
 }
 
 #intro p {
@@ -150,13 +151,7 @@ img.logo {
 
 }
 
-img.logo {
-    filter: grayscale(1);
-}
 
-img.logo:hover {
-    filter: grayscale(0);
-}
 
 .btn:hover {
     box-shadow: 0 0 3rem rgba(138, 189, 222, 0.75);
@@ -256,6 +251,14 @@ footer {
    
     #card-gallery {    
         padding-top: 0.5%;   
+    }
+
+    img.logo {
+        filter: grayscale(1);
+    }
+    
+    img.logo:hover {
+        filter: grayscale(0);
     }
      }
 
