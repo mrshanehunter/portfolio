@@ -9,14 +9,13 @@ html {
 
 body {
     background-color: #080424;
-  
     font-family: montserrat, sans-serif;
     font-weight: 500;
     font-style: normal;
 }
 
 header {
-    min-width: 100vw;
+    width: 100vw;
     position: fixed;
     z-index: 20;
     top: 0;
