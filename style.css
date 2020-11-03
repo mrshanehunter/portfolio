@@ -246,6 +246,14 @@ footer {
 // Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) { 
+
+    #introContent {
+        column-count: 3;
+        column-gap: 2rem;
+        line-height: 1.75;
+    }
+
+   
     #card-gallery {    
         padding-top: 0.5%;   
     }

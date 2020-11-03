@@ -5,7 +5,7 @@ const brandData = [
      brand: 'Belvoir Fruit Farms',
      desc1: `Belvoir Fruit Farms nestles deep in the English countryside. For over 35 years, in the idyllic Vale of Belvoir, they've been pressing fresh fruit & infusing flowers to mix with spring water to make their fruit cordials & presses.`,   
      desc2: `Renowned for their elderflower drinks, still made to the original family recipe, the expanded range offers a wide variety of natural & authentic flavours. Locally, Belvoir Fruit Farms is ranged by both Coles & Woolworths.`,
-     creative: './assets/assetsCreative/BFFCreative.png',
+     creative: './assets/assetsCreative/BFFCreative.jpg',
      brief: `Devise a strategy to educate consumers on a product form not previously seen in the local market to mitigate the potential threat of de-listing. The strategy should also have a halo effect on the brand's core range. Manage the execution of the approved strategy locally on behalf of the brand.`,
      solution1: ``,   
      solution2: '',
