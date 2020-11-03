@@ -72,11 +72,14 @@ body {
 
 }
 
-#intro {
-    margin-top: 1rem;
-}
+#introHeading {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    }
 
-#intro h3 {
+
+
+#introHeading h3 {
     font-family: timberline, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -84,10 +87,16 @@ body {
     font-size: 2.4rem;
 }
 
+#introContent {
+    column-count: 2;
+}
+
 #intro p {
+  
     color: #d9d9d9;
     font-size: 1.2rem;
-    margin-top: 2rem;
+   
+
 }
 
 
