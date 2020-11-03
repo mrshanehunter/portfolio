@@ -67,7 +67,7 @@ body {
 
 #introduction {
     min-height: 100vh;
-    padding-top: 5.5rem;
+    padding-top: 10%;
     padding-bottom: 3rem;
 
 }
@@ -93,7 +93,8 @@ body {
 
 #cardGallery {
     min-height: 100vh;
-    padding-top: 5.5rem;
+    padding-top: 10%;
+    padding-bottom: 5%;
     display: flex;
     justify-content: center;
     /* background: url(./assetsLogo/AdobeStock_210096418_Preview\ copy.jpg) no-repeat center center fixed;
@@ -112,13 +113,22 @@ body {
     border-radius: 1rem;
     background-color: #080424;
     flex: none;
-    width: 20vw;
-    height: 20vw;
+    min-width: 20vw;
+    /* min-height: 22vh; */
     
 }
+.card-logo {
+    /* height: 100%; */
+    width: 100%;
+}
 
-.logo {    
-    max-width: 20vw;   
+.btn {
+    width: 100%;
+    /* height: 100%; */
+}
+
+img.logo {    
+    min-width: 100%;   
 }
 
 img.logo {
@@ -153,21 +163,21 @@ footer {
 .modalBtn {
     border-radius: 1rem 3rem;
     border: thin solid #d9d9d9;
-    background-color: #080424;
+    background-color: #0f4c81;
     color: #d9d9d9;
     width: 30%;
     padding: 1%;
 }
 
 .modalBtn:hover {
-    box-shadow: 0 0 2.5rem rgba(138, 189, 222, 0.75);
-    color: #0f4c81;
+    box-shadow: 0 0 3rem rgba(138, 189, 222, 0.75);
+    background-color: #080424;
 }
 
 
 .modal-header {
-    background-color: #080424;
-    border: thin solid #0f4c81;
+    background-color: #0f4c81;
+    border: thin solid #d9d9d9;
 }
 
 .modal-header h5 {
@@ -181,9 +191,11 @@ footer {
 
 .modal-body {
     background-color: #d9d9d9;
-    color: #0f4c81;
+    color: #080424;
     font-size: 1.4rem;
-    border: thin solid #0f4c81
+    border: thin solid #0f4c81;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
 }
 
 .workDesc {
@@ -191,17 +203,17 @@ footer {
 }
 
 .modalImage {
-    max-width: 66%;
+    min-width: 75%;
     height: auto;
     align-self: center;
     border: 0.05rem solid #080424;
-    box-shadow: 0.3rem 0.3rem 0.3rem 0.3rem rgba(15, 76, 129, 0.25);
+    box-shadow: 0 0 1.25rem rgba(15, 76, 129, 0.75);
     
 }
 
 .modal-footer {
-    background-color: #080424;
-    border: thin solid #0f4c81;
+    background-color: #0f4c81;
+    border: thin solid #d9d9d9;
 }
 
 .close {

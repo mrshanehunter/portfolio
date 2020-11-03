@@ -37,7 +37,7 @@ for (let i = 0; i < brandData.length; i++) {
         cardsHtmlList.push(cardHtml);
 }
 
-const cardsHtml = cardsHtmlList.join();
+const cardsHtml = cardsHtmlList.join(' ');
 const projectCards = document.querySelector('#projectCards');
 projectCards.innerHTML = cardsHtml;
 
