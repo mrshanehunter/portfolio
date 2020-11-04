@@ -39,7 +39,7 @@ const brandData = [
         name: 'Infrusion',
         logoImage: './assets/assetsLogo/LogoInfrusion.png',
         brand: 'Infrusion',
-        desc1: ``,  
+        desc1: ` `,  
         desc2: ``,   
         creative: './assets/assetsCreative/InfrusionCreative.jpg',
         brief: 'still to come',
