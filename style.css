@@ -57,7 +57,7 @@ header {
 }
 
 .viewa {
-    min-height: 100vh;
+    height: 100vh;
     /* opacity: 0; */
 }
 
@@ -241,6 +241,7 @@ footer {
 
 @media (min-width: 576px) { 
 
+    
     #introContent {
         column-count: 3;
         column-gap: 2rem;
@@ -260,6 +261,15 @@ footer {
         filter: grayscale(0);
     }
      }
+
+
+
+   @media screen and (min-width: 1025px){
+
+   #view {   
+     background-image: url('./assets/assetsPage/BYB1025up.jpg');
+   }  
+}
 
 /* // Medium devices (tablets, 768px and up) */
 /* @media (min-width: 768px) { 
