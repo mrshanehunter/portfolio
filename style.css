@@ -264,7 +264,7 @@ footer {
 
 
 
-   @media screen and (min-width: 1025px){
+   @media (min-width: 1025px){
 
    #view {   
      background-image: url('./assets/assetsPage/BYB1025up.jpg');
